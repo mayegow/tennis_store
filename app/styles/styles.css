@@ -1,0 +1,522 @@
+/* This is custom css */
+:root{
+    --primary-tennis: #cbe346;
+    --swiper-theme-color: #cbe346;
+    --swiper-pagination-color: #cbe346;
+    --light-tennis: #fff;
+}
+
+/* This is main image custom styles */
+*{
+    font-family: Helvetica;
+}
+
+.spacing-text{
+    letter-spacing: 2px;
+}
+
+.cls-1, .text-white {
+    fill: var(--light-tennis);
+    transition: all .5s;
+}
+.cls-2, .text-black {
+    fill: var(--primary-tennis);
+    transition: all .5s;
+}
+
+.mt-3{
+    transition: all 1s;
+}
+
+.text-lime{
+    color: var(--primary-tennis);
+    font-weight: 700;
+}
+
+/* header custom */
+
+.header-menu-item.active-link {
+  position: relative;
+}
+  
+.header-menu-item.active-link::after {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 2px;
+  background-color: var(--light-tennis); /* Puedes cambiar el color de la línea aquí */
+  position: absolute;
+  bottom: -7px; /* Ajusta el espacio entre el texto y la línea */
+  left: 7px;
+  transform: translateX(-50%);
+}
+
+/* header custom */
+
+.racket-background {
+    background-image: url('../assets/raqueta.png'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%; 
+    height: 100vh; 
+    object-fit: contain;
+}
+
+.center-text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.custom-btn {
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    padding: 15px 20px 15px 20px;
+    border-radius: 50px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all .5s;
+}
+.custom-btn:hover {
+    background: white;
+    color: #000;
+    transition: all .5s;
+}
+
+.custom-btn:hover svg{
+    transform: translateX(5px);
+    transition: all .5s;
+}
+
+
+.vertical-line {
+    width: 2px;
+    height: 100vh;
+    background-color: var(--light-tennis);
+    margin-left: 10px;
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+
+.header {
+    height:100px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.tennis-rotate{
+    transform: rotateZ(33deg);
+}
+
+@media (max-width: 768px) {
+    .racket-background, 
+    .vertical-line {
+        height: 50vh; 
+    }
+    .dynamic-margin{
+        margin-top:1rem;
+    }
+}
+
+.underline-selected {
+    position: relative; 
+}
+
+.underline-selected::after {
+    content: ""; 
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 100%; 
+    height: 30px; 
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1; 
+ }
+
+ /* TennisSections custom styles */
+
+ .section-tennis {
+    background-color: #f8f9fc;
+    padding: 100px 0 60px 0;
+}
+
+.tennis-label {
+    color: var(--primary-tennis);
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main-heading {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.main-heading span {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.subheading {
+    color: #7a7a7a;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.btn-outline-custom {
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    padding: 15px 30px 11px 30px;
+    border-radius: 50px;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all .5s;
+    align-items: center;
+    transition: all .5s ease;
+}
+
+.btn-outline-custom:hover {
+    color: var(--light-tennis);
+    background-color: #000;
+}
+
+.btn-outline-custom svg {
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-custom:hover svg {
+    transform: translateX(5px);
+}
+
+/* Section tennis person */
+.tennis-section {
+    position: relative;
+    height: 500px;
+    background: url('../assets/jugador.png') no-repeat center center;
+    background-size: cover;
+}
+
+/* Section footer */
+.footer-tennis {
+    background-color: #a8d53e;
+    padding: 40px 0;
+    color: white;
+}
+
+.footer-tennis a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer-tennis a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #333;
+}
+
+.footer-logo {
+    float: right;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+/* dynamic margin */
+
+.dynamic-margin{
+    margin-top:0;
+}
+
+
+/* dynamic margin */
+
+/* Carousels */
+
+
+  
+  .custom-carousel-item {
+    min-width: 100%;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .custom-carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-number {
+    position: relative;
+    top: -142px;
+    left: -236px;
+    background-color: #c6ec3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: .9rem;
+    width: 30px;
+    height:30px;
+    font-weight: 500;
+  }
+  
+
+  
+  
+  /*@media (min-width: 768px) {
+    .custom-carousel-item {
+      min-width: 50%; 
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .custom-carousel-item {
+      min-width: 33.333%; 
+    }
+  }*/
+
+  .card-racket{
+    background-image: url('../assets/card.png');
+    background-size: contain;
+    object-fit: contain;
+
+  }
+  .card-ball{
+    background-image: url('../assets/pelota.png');
+    background-size: cover;
+
+  }
+
+  .height-section, .height-ball{
+    height: 400px;
+  }
+  .height-card{
+    height: 300px;
+  }
+  
+
+  /* Custom swipable library class to carousel */
+
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 120px) !important;
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .height-section{
+        height: 800px;
+      }
+}
+
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 10px);
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--swiper-pagination-color, var(--swiper-theme-color)) !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 40px;
+    height: 40px;
+}
+
+.card-custom{
+    width:250px;
+}
+
+.swiper-pagination-bullet {
+    background: #ffffff;
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
+}
+
+.card-image {
+    background:#f3f4f8;
+    border-radius:20px;
+    
+}
+
+@media (max-width: 1300px){
+    .card-custom{
+        height:350px;
+        width:300px;
+    }
+}
+
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.slide-content img {
+  width: 100%;
+  max-width: 270px;
+  border-radius: 10px;
+  padding-bottom: 2.2rem;
+}
+  
+.slide-content p {
+  margin-top: 10px;
+ font-size: 1.2rem;
+  color: #333;
+}
+.slide-number {
+    position: relative;
+    top: 50px;
+    left: -100px;
+    background-color: var(--primary-tennis);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 36px;
+    height: 36px;
+}  
+
+@media (max-width: 1280px){
+    .slide-number {
+        top: 50px;
+        left: -100px;
+    }  
+}
+@media (max-width: 1200px){
+    .slide-number {
+        top: 50px;
+        left: -90px;
+    }  
+}
+@media ( max-width: 1200px )and( min-width: 1025px) {
+    .slide-number {
+        top: 50px;
+        left: -70px;
+    }  
+}
+@media (max-width: 767px){
+    .slide-number {
+        top: 50px;
+        left: -100px;
+    }  
+}
+@media (max-width: 630px){
+    .slide-number {
+        top: 50px;
+        left: -100px;
+    }  
+    
+}
+
+
+
+/** Custom buttons swipper **/
+
+
+
+.swiper-button-container{
+    left: 51.2%;
+    position: absolute;
+    bottom: 17%;
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+  width: 50px;                  
+  height: 50px;
+  border-radius: 50%;           
+  background-color: rgba(255, 255, 255, 0.7); 
+  border: 2px solid transparent; 
+  display: flex;                
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;           
+  bottom: 40px;                 
+  z-index: 10;                  
+  transition: all 0.3s ease;
+}
+
+.swiper-button-prev svg, .swiper-button-next svg {
+    width: 40%;
+    height: 100%;
+    object-fit: contain;
+    transform-origin: center;
+}
+.swiper-button-prev svg{
+    transform: rotate(60deg);
+}
+
+.swiper-button-prev:hover, 
+.swiper-button-next:hover {
+  background-color: rgba(255, 255, 255, 0.9); 
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  border: 2px solid white;      
+  opacity: 0.5;                 
+  cursor: not-allowed;          
+}
+
+.swiper-button-prev:not(.swiper-button-disabled),
+.swiper-button-next:not(.swiper-button-disabled) {
+  background-color: var(--primary-tennis);   
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+
+.swiper-button-prev, 
+.swiper-button-next {
+  left: none ;                    
+  transform: translateX(-80px);  
+}
+
+.swiper-button-next {
+  transform: translateX(60px);  
+}
+
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    content: '';
+}
+/***/
+
+/* Custom swipper rackets */
+
+.card-rackets-swiper{
+    padding-left: 13px;
+    padding-top: 6px;
+}
+
+/* Social circles */
+
+.circle-social{
+    display: inline-grid;
+    border: 1px solid var(--light-tennis);
+    border-radius: 50px;
+    height:50px;
+    width:50px;
+}
+
+/* Social circles */
+
+.st0{fill:none;}
