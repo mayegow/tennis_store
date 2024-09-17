@@ -49,10 +49,10 @@ function FooterMenu() {
                       <div className="">
                           <a href="#" className="circle-social text-light">
                             <div className="d-flex align-items-center justify-content-center">
-                            <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                            <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
                                 width="24px" height="24px" viewBox="0 0 552.77 552.77"
                                 className="text-white"
-                                xml:space="preserve">
+                                xmlSpace="preserve">
                               <g>
                                 <g>
                                   <path d="M17.95,528.854h71.861c9.914,0,17.95-8.037,17.95-17.951V196.8c0-9.915-8.036-17.95-17.95-17.95H17.95
@@ -73,8 +73,8 @@ function FooterMenu() {
                           </a>
                           <a href="#" className="circle-social text-light ">
                             <div className="d-flex align-items-center justify-content-center">
-                            <svg width="24px" height="24px" viewBox="0 -1.5 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
+                            <svg width="24px" height="24px" viewBox="0 -1.5 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                              <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                   <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7560.000000)" fill="#fff">
                                       <g id="icons" transform="translate(56.000000, 160.000000)">
                                           <path d="M23.99,7403.93262 C23.9,7405.8454 22.541,7408.46538 19.911,7411.79058 C17.192,7415.26353 14.891,7417 13.009,7417 C11.843,7417 10.857,7415.94019 10.051,7413.82155 L8.437,7407.99457 C7.839,7405.87495 7.197,7404.81514 6.51,7404.81514 C6.36,7404.81514 5.837,7405.12441 4.941,7405.74296 L4,7404.55117 C4.986,7403.69722 5.957,7402.84326 6.913,7401.99029 C8.228,7400.87138 9.214,7400.28337 9.871,7400.22427 C11.425,7400.07751 12.381,7401.12156 12.74,7403.35839 C13.128,7405.77251 13.397,7407.2726 13.547,7407.8616 C13.995,7409.86303 14.488,7410.86374 15.026,7410.86374 C15.444,7410.86374 16.072,7410.21662 16.908,7408.92141 C17.745,7407.6262 18.193,7406.64026 18.253,7405.96359 C18.372,7404.84469 17.924,7404.28622 16.908,7404.28622 C16.43,7404.28622 15.937,7404.38865 15.429,7404.59451 C16.415,7401.44561 18.298,7399.91499 21.077,7400.00364 C23.138,7400.06274 24.11,7401.37174 23.99,7403.93262 L23.99,7403.93262 Z" id="vimeo-[#144]">
@@ -95,8 +95,8 @@ function FooterMenu() {
                           </a>
                           <a href="#" className="circle-social text-light ">
                             <div className="d-flex align-items-center justify-content-center">
-                            <svg width="24px" height="24px" viewBox="0 -2 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fillRule="evenodd">
+                            <svg width="24px" height="24px" viewBox="0 -2 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                                <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                     <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)" fill="#fff">
                                         <g id="icons" transform="translate(56.000000, 160.000000)">
                                             <path d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705" id="twitter-[#154]">
@@ -109,7 +109,7 @@ function FooterMenu() {
                           </a>
                           <a href="#" className="circle-social text-light ">
                             <div className="d-flex align-items-center justify-content-center">
-                            <svg width="24px" height="24px" viewBox="-5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg width="24px" height="24px" viewBox="-5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                                 <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                     <g id="Dribbble-Light-Preview" transform="translate(-385.000000, -7399.000000)" fill="#fff">
                                         <g id="icons" transform="translate(56.000000, 160.000000)">

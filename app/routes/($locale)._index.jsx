@@ -226,8 +226,8 @@ function CarouselsSection() {
           spaceBetween={20}
           slidesPerView={1}
           navigation={{
-            nextEl: '.swiper-button-next', // Selector para el botón "Siguiente"
-            prevEl: '.swiper-button-prev', // Selector para el botón "Anterior"
+            nextEl: '.swiper-button-next', 
+            prevEl: '.swiper-button-prev',
           }}
           pagination={{ clickable: true }}
 

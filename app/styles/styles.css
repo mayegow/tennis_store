@@ -44,9 +44,9 @@
   display: block;
   width: 15px;
   height: 2px;
-  background-color: var(--light-tennis); /* Puedes cambiar el color de la línea aquí */
+  background-color: var(--light-tennis); 
   position: absolute;
-  bottom: -7px; /* Ajusta el espacio entre el texto y la línea */
+  bottom: -7px; 
   left: 7px;
   transform: translateX(-50%);
 }
@@ -139,7 +139,7 @@
 
  /* TennisSections custom styles */
 
- .section-tennis {
+.section-tennis {
     background-color: #f8f9fc;
     padding: 100px 0 60px 0;
 }
@@ -236,88 +236,68 @@
     height: 50px;
 }
 
-/* dynamic margin */
-
 .dynamic-margin{
     margin-top:0;
 }
 
 
-/* dynamic margin */
-
 /* Carousels */
 
 
   
-  .custom-carousel-item {
-    min-width: 100%;
-    position: relative;
-    padding: 20px;
-  }
+.custom-carousel-item {
+  min-width: 100%;
+  position: relative;
+  padding: 20px;
+}
   
-  .custom-carousel-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+.custom-carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
   
-  .item-number {
-    position: relative;
-    top: -142px;
-    left: -236px;
-    background-color: #c6ec3c;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 50%;
-    font-size: .9rem;
-    width: 30px;
-    height:30px;
-    font-weight: 500;
-  }
+.item-number {
+  position: relative;
+  top: -142px;
+  left: -236px;
+  background-color: #c6ec3c;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: .9rem;
+  width: 30px;
+  height:30px;
+  font-weight: 500;
+}
   
 
-  
-  
-  /*@media (min-width: 768px) {
-    .custom-carousel-item {
-      min-width: 50%; 
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .custom-carousel-item {
-      min-width: 33.333%; 
-    }
-  }*/
+.card-racket{
+  background-image: url('../assets/card.png');
+  background-size: contain;
+  object-fit: contain;
+}
+.card-ball{
+  background-image: url('../assets/pelota.png');
+  background-size: cover;
+}
 
-  .card-racket{
-    background-image: url('../assets/card.png');
-    background-size: contain;
-    object-fit: contain;
-
-  }
-  .card-ball{
-    background-image: url('../assets/pelota.png');
-    background-size: cover;
-
-  }
-
-  .height-section, .height-ball{
-    height: 400px;
-  }
-  .height-card{
-    height: 300px;
-  }
+.height-section, .height-ball{
+  height: 400px;
+}
+.height-card{
+  height: 300px;
+}
   
 
   /* Custom swipable library class to carousel */
 
-  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: var(--swiper-pagination-bottom, 120px) !important;
-    top: var(--swiper-pagination-top, auto);
-    left: 0;
-    width: 100%;
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: var(--swiper-pagination-bottom, 120px) !important;
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: 100%;
 }
 
 @media (max-width: 767px) {
