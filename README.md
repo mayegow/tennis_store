@@ -1,5 +1,5 @@
 # About
-This project run on ReactJs v18 on VITE framework
+This project run on ReactJs v. Hydrogen on VITE framework
 TENNIS_STORE contains:
 * Components
 * React hydrogen
