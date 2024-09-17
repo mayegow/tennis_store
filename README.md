@@ -18,6 +18,12 @@ TENNIS_STORE contains:
     $ cd tennis_Store
     $ npm i 
     $ npm run dev
+# If project not run
+
+* Create .env File on root of project
+* And write on this : SESSION_SECRET=your-secret-key
+* Run project
+
 
 # Enjoy it!
 
