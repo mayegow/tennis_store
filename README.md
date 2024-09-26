@@ -27,8 +27,8 @@ TENNIS_STORE contains:
 
 # Enjoy it!
 
-![](https://github.com/mayegow/tennis_store/blob/main/images/Captura%20de%20pantalla%202024-09-16%20a%20la(s)%207.42.38%E2%80%AFp.m..png)
-![](https://github.com/mayegow/tennis_store/blob/main/images/Captura%20de%20pantalla%202024-09-16%20a%20la(s)%207.42.49%E2%80%AFp.m..png)
-![](https://github.com/mayegow/tennis_store/blob/main/images/Captura%20de%20pantalla%202024-09-16%20a%20la(s)%207.42.55%E2%80%AFp.m..png)
-![](https://github.com/mayegow/tennis_store/blob/main/images/Captura%20de%20pantalla%202024-09-16%20a%20la(s)%207.43.01%E2%80%AFp.m..png)
+![](https://github.com/mayegow/tennis_store/blob/main/images/1.png)
+![](https://github.com/mayegow/tennis_store/blob/main/images/2.png)
+![](https://github.com/mayegow/tennis_store/blob/main/images/3.png)
+![](https://github.com/mayegow/tennis_store/blob/main/images/4.png)
 
